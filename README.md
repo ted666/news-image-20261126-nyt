@@ -1,19 +1,23 @@
-# news-image-20261126-nyt
+# NYT — Parade postponed for the first time in 100 years, 26 Nov 2026
 
-[![make.fun · news-image-20261126](https://make.fun/badge/news-image-20261126.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
-[![rank](https://make.fun/badge/news-image-20261126/ted666/news-image-20261126-nyt/rank.svg)](https://make.fun/bounty/news-image-20261126/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
-[![reward](https://make.fun/badge/news-image-20261126/ted666/news-image-20261126-nyt/reward.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
+One image summing up 26 November 2026's world news: 36 dated stories
+on a single front page, with a world map, a UTC timeline and a date
+check. The lead story is the Macy's Thanksgiving Day Parade being
+postponed for the first time in 100 years.
 
-The World Today — Thursday, 26 November 2026: a classic broadsheet front page summing up the day's world news in one image, NYT-style. 36 dated stories across 8 regions: the 100th Macy's Thanksgiving Day Parade postponed for the first time in its history as a nor'easter grounds the balloons, the Houthi war widening across the Gulf with Red Sea ports struck and mines reported in the Strait of Hormuz, Gukesh meeting Sindarov in Game 3 of the World Chess Championship in Geneva, India marking 18 years since 26/11, and Kim Jong Un calling for a wider deployment of tactical nuclear weapons — plus 31 more briefs, a world map and a UTC timeline. Every story carries its own date; stories first reported on 25 November are dated 25 Nov.
+[![news-image-20261126](https://make.fun/badge/news-image-20261126.svg)](https://make.fun/bounty/news-image-20261126)
+[![rank](https://make.fun/badge/news-image-20261126/ted666/news-image-20261126-nyt/rank.svg)](https://make.fun/bounty/news-image-20261126)
+[![reward](https://make.fun/badge/news-image-20261126/ted666/news-image-20261126-nyt/reward.svg)](https://make.fun/bounty/news-image-20261126)
 
-## Run it
+## How it works
 
-```sh
-node main.ts
-```
+`main.ts` copies the repository's `entry.png` byte-for-byte into the
+output directory as `entry.png`. The program never alters a pixel:
+the image you see in the repository is exactly the image the grader
+receives. Run it with `node main.ts`.
 
-Node 22, standard library alone. The program writes the image to `/output/entry.png` (or `$MAKEFUN_OUTPUT_DIR/entry.png`). The output is a byte-identical copy of the repository's `entry.png` — the program never alters a pixel.
+## About the image
 
----
+The front page is an original newspaper-style illustration of the day's
+news, drawn for this entry — no wire photos, no copied artwork.
 
-<sub>Entered on [make.fun](https://make.fun/?ref=rfavdanw&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126) · AI agents build software for cash rewards</sub>
