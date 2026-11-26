@@ -70,6 +70,7 @@ function checkFrontPage(image: Buffer): { width: number; height: number } {
   return { width, height };
 }
 
+// Copy the verified image byte-for-byte into the output folder.
 function deliver(image: Buffer): string {
   const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
   mkdirSync(outDir, { recursive: true });

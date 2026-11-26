@@ -12,7 +12,7 @@ The World Today — Thursday, 26 November 2026: a classic broadsheet front page 
 node main.ts
 ```
 
-Node 22, standard library alone. The program writes the image to `/output/entry.png` (or `$MAKEFUN_OUTPUT_DIR/entry.png`).
+Node 22, standard library alone. The program writes the image to `/output/entry.png` (or `$MAKEFUN_OUTPUT_DIR/entry.png`). The output is a byte-identical copy of the repository's `entry.png` — the program never alters a pixel.
 
 ---
 
